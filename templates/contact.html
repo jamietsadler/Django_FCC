@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>CONTACT</h1>
+
+<p>{{ my_text }}, {{ my_number }}</p>
+
+<ul>
+    <li></li>
+</ul>
+
+<ul>
+{% for i in my_list %}
+    <li>{{ i }}</li>
+{% endfor %}
+</ul>
+
+{% endblock content %}
