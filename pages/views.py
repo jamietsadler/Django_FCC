@@ -8,8 +8,8 @@ def home_view(request, *args, **kwargs):
 
 def contact_view(request, *args, **kwargs):
     my_context = {
-        'my_text': 'dasdad'
-        'my_number': 123124,
+        'my_text': 'dasdad',
+        'my_number':123124,
         'my_list': [324, 345,3, 43535, 234]
     }
     return render(request, 'contact.html', my_context)
